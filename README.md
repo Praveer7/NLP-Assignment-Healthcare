@@ -30,7 +30,7 @@ Let's break down the steps into subtasks to understand this better.
 
  
 
-1. Data preprocessing: 
+1. **Data preprocessing**: 
 
 
 
@@ -48,7 +48,7 @@ You need to do the following three tasks after processing and modifying the data
 
 - Correctly count the number of lines of labels in the processed train and test dataset.
 
-2. Concept identification:
+2. **Concept identification**:
 
 
 
@@ -67,7 +67,7 @@ You need to do the following three tasks after processing and modifying the data
     i) Use a toolkit like spaCy to extract those tokens that have `NOUN` or `PROPN` as their PoS tag and find their frequency from the entire dataset that comprises both the train and the test datasets.
     ii) Print the top 25 most common tokens with NOUN or PROPN PoS tags for the entire dataset that comprises both the train and the test datasets.
 
-3. Defining the features for CRF:
+3. **Defining the features for CRF**:
 
 
 
@@ -77,7 +77,7 @@ You need to do the following three tasks after processing and modifying the data
     ii) While defining the features in which you have used the PoS tags, you also need to consider the preceding word of the current word. The use of the information of the preceding word makes the CRF model more accurate and exhaustive.
     iii) Mark the beginning and the end words of a sentence correctly in the form of features.
 
-4. Getting the features and the labels of sentences:
+4. **Getting the features and the labels of sentences**:
 
 
 - In this step, you need to perform the following two tasks:
@@ -85,7 +85,7 @@ You need to do the following three tasks after processing and modifying the data
     - Write the code to get the features' value of a sentence after defining the features in the previous step.
     - Write the code to get a list of labels of a given preprocessed label line that you have created earlier.
 
-5. Defining input and target variables:
+5. **Defining input and target variables**:
 
 
 
@@ -94,12 +94,12 @@ You need to do the following three tasks after processing and modifying the data
     i) Extract the features' values for each sentence as an input variable for the CRF model in the test and the train dataset.
     ii) Extract the labels as the target variable for the test and the train dataset.
 
-6. Building the model:
+6. **Building the model**:
 
 
 - You need to build the CRF model for a custom NER application using the features and the target variables.
 
-7. Evaluation: 
+7. **Evaluation**: 
 
 
 - Evaluate the model using the following two steps:
@@ -107,7 +107,7 @@ You need to do the following three tasks after processing and modifying the data
     i) Predict the labels of each of the tokens in each sentence of the test dataset that has been preprocessed earlier.
     ii) Calculate the f1 score using the actual and the predicted labels of the test dataset.
 
-8. Identifying the diseases and treatment using a custom NER: 
+8. **Identifying the diseases and treatment using a custom NER**: 
 
 
 i) Create the code or logic to get all the predicted treatments (T) labels corresponding to each disease (D) label in the test dataset. 

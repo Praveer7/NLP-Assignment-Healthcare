@@ -1,8 +1,9 @@
 # NLP-Assignment-Healthcare
 
-A data set is given in which a lot of text is written related to the medical domain. In this dataset, there are a lot of diseases that can be mentioned in the entire dataset and their related treatments are also mentioned implicitly in the text
-For example, in the sentence:
-“`The patient was a 62-year-old man with squamous cell lung cancer, which was first successfully treated by a combination of radiation therapy and chemotherapy.`”
+A data set is given in which a lot of text is written related to the medical domain. In this dataset, there are a lot of diseases that can be mentioned in the entire dataset and their related treatments are also mentioned implicitly in the text.  
+
+For example, in the sentence:  
+“`The patient was a 62-year-old man with squamous cell lung cancer, which was first successfully treated by a combination of radiation therapy and chemotherapy.`”  
 the disease mentioned is cancer and its treatment can be identified as chemotherapy using the sentence. The diseases and their treatment are not explicitly mentioned in the dataset, but you have to build an algorithm to map the diseases and their respective treatment and list them out in the form of a table or a dictionary.
 
 
